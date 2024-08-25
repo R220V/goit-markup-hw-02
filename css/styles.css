@@ -120,7 +120,7 @@ button:focus {
 }
 
 .section-three {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .section-three-title {
@@ -130,6 +130,7 @@ button:focus {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  background-color: #ffffff;
 }
 
 .section-three-list {
