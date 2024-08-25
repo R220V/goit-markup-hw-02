@@ -96,6 +96,7 @@ font-family: "Roboto", sans-serif; */
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
 .button:hover,
 button:focus {
@@ -122,7 +123,7 @@ button:focus {
   background: #f4f4fd;
 }
 
-.section-three-title .section-four-title {
+.section-three-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -135,7 +136,7 @@ button:focus {
   background-color: #ffffff;
 }
 
-.section-three-subtitle .section-four-subtitle {
+.section-three-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -144,9 +145,32 @@ button:focus {
   color: #2e2f42;
 }
 
-.section-three-item .section-four-item {
-  font-weight: 400;
-  font-size: 16px;
+.section-three-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.section-four-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.section-four-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-four-item {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
