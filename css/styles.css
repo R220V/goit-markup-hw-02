@@ -34,6 +34,10 @@ font-family: "Roboto", sans-serif; */
 .header-logo .logo-part {
   color: #2e2f42;
 }
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
+}
 /* 
 .nav-list {
 }
@@ -71,4 +75,90 @@ font-family: "Roboto", sans-serif; */
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+
+/* Sections */
+
+.section_one {
+  background-color: #2e2f42;
+}
+
+.section_one_title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+/* 
+.section-two {
+} */
+
+.section-two_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-two_items {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-three {
+  background: #f4f4fd;
+}
+
+.section-three-title .section-four-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.section-three-list {
+  background-color: #ffffff;
+}
+
+.section-three-subtitle .section-four-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.section-three-item .section-four-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+.footerok {
+  background-color: #2e2f42;
+}
+
+.footerok-item {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
